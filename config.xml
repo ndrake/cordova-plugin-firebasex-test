@@ -66,11 +66,10 @@
     </platform>
 
     <platform name="ios">
-    	<preference name="deployment-target" value="11.0" /> <!-- min supported iOS version  -->
+    	<preference name="deployment-target" value="12.3.0" /> <!-- min supported iOS version  -->
         <resource-file src="res/ios/sound/blackberry.caf" />
         <resource-file src="res/ios/sound/crystal.caf" />
         <resource-file src="res/ios/sound/msn.caf" />
         <resource-file src="res/ios/pn-actions.json" />
     </platform>
 </widget>
-

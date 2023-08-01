@@ -8,9 +8,8 @@
   "dependencies": {
     "cordova-custom-config": "^5.1.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
-    "cordova-plugin-dialogs": "git+https://github.com/dpa99c/cordova-plugin-dialogs.git",
     "cordova-plugin-enable-multidex": "^0.2.0",
-    "cordova-plugin-firebasex": "*",
+    "cordova-plugin-firebasex": "16.1.0-cli",
     "cordova-plugin-hello-c": "^1.1.1"
   },
   "cordova": {
@@ -56,7 +55,9 @@
   },
   "devDependencies": {
     "cordova-android": "^12.0.0",
-    "cordova-ios": "^6.3.0",
+    "cordova-ios": "^7.0.0",
+    "cordova-plugin-dialogs": "github:dpa99c/cordova-plugin-dialogs",
+    "cordova-plugin-facebook-connect": "^3.2.0",
     "cordova.plugins.diagnostic": "^7.1.0",
     "google-auth-library": "^4.2.5"
   },
